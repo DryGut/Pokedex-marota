@@ -25,11 +25,11 @@
 .status-pokemon {
   white-space: nowrap; 
   color: blue;
-  font-size: 28px;
+  font-size: 31px;
   position: absolute;
   overflow: hidden;
-  top: 65%;
-  left: 50%;
+  top: 70%;
+  left: 45%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
 }
@@ -43,10 +43,22 @@
   white-space: nowrap;
   position: absolute;
   overflow: hidden;
-  top: 21%;
+  top: 24%;
   left: 50%;
   width: 130px;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
 }
 
+.buscar {
+  width: 51px;
+  height: 23px;
+  margin-left: 12px;
+}
+
+.nome-pokemon {
+  margin-top: 28px;
+  width: 227px;
+  height: 16px;
+}
+}
